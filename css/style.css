@@ -9,8 +9,11 @@
 .logo{
     background-color: white;
     padding: 1rem;
+    vertical-align: middle;
 }
 .logo-text{
+    display: inline;
+    vertical-align: middle;
     font-weight: bold;
     font-size: 30px;
     vertical-align: 50%;
@@ -32,6 +35,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 4%;
   
     
 }
@@ -45,8 +49,8 @@
     border: 0px;
 }
 #add-section-button{
-    color: gray;
-    border:1px solid gray;
+    color: lightgray;
+    border:1px solid lightgray;
     background-color: white;
 }
 
@@ -58,6 +62,7 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     border: 1px solid white;
+    padding-bottom: 2rem;
 }
 .task-section{
     width: 90%;
@@ -93,4 +98,8 @@
 }
 #sales{
     background-color: #b0c926;
+}
+footer{
+    margin-top: 2rem;
+    text-align: center;
 }
