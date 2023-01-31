@@ -15,3 +15,31 @@
     vertical-align: 50%;
     margin: auto;
 }
+.main-tab{
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+.buttons-section{
+    margin-top: 3rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    
+}
+.add-button{
+    padding: 10px;
+    border-radius: 8px;
+}
+#add-task-button{
+    color: white;
+    background-color:#47adf1;
+    border: 0px;
+}
+#add-section-button{
+    color: gray;
+    border:1px solid gray;
+    background-color: white;
+}
